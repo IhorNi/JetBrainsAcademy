@@ -6,7 +6,10 @@ import os
 class RandomTextGenerator:
 
     def __init__(self, file_path):
-        '''Constract object with trained Markov-chain model based on trigrams'''
+        '''
+            Constract object with trained Markov-chain model based on trigrams.
+            For simplicity sake tokenization is as easy as whitespace splitting.
+        '''
     
         if os.path.exists(file_path) and os.path.isfile(file_path):
             if os.path.getsize(file_path):
