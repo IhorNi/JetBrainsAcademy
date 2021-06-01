@@ -1,10 +1,10 @@
-# JetBrainsAcademy - RandomTextGenerator
+# JetBrainsAcademy NLP Track - RandomTextGenerator
 
 A simple text generator using Markov chains that can predict the next word in a pseudo-sentence based on the previous words in the sequence and the data that is used to create a statistical model.
 
 A Markov chain is a statistical model in which the probability of each event depends on the previous event. It can be described as a set of states and transitions between them. Each transition has a probability that is determined by some kind of statistical data. In this project, a state corresponds to a token, and each transition represents going from one word of a sentence to another. The probability of transitions is calculated from the bigrams we collected in the previous stage. The basic idea of this project is that from a dictionary we can create a model that will consider all the possible transitions from one word to another and choose the most probable one based on the previous word.
 
-# JetBrainsAcademy - WebScraper
+# JetBrainsAcademy NLP Track - WebScraper
 We now have a good deal of knowledge and experience, so let's put it all together and create your first real web scraper. Most of the time, the reason why people create parse-and-scrape programs is to automate the routine tasks of retrieving large data from a website. For example, every machine learning task requires some train data. Let's imagine you're doing research based on the recent science news. For that research, you'll need to have the most recent articles with the type "News" that are posted on the Nature journal website. Each article should be saved to a separate .txt file named after the article's title.
 
 ### Objectives - 1
