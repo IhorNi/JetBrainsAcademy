@@ -1,3 +1,16 @@
+# JetBrainsAcademy Python Track - Web Calendar
+
+These days, our lives are very busy and eventful. It's very hard to keep track of everything that happens around us. Let's create a web calendar that will store and manage all upcoming events. Use the Flask framework and create a REST API to save and manage events. The Flask framework allows you to start a web application from a single Python file.
+
+This is a simple REST service with the Flask framework. It works with a database using the Flask-SQLAlchemy extension and create resources using the Flask-RESTful extension.
+
+### Objectives
+
+1. Endpont '/event': **GET** either all events or events between dates if any; **POST** new events with required name and date.
+2. Endpont '/event/<int:event_id>': **GET** event by ID if any; **DELETE** event by ID if any.
+3. Endpoint '/event/today': **GET** all events for today() if any. 
+
+
 # JetBrainsAcademy NLP Track - RandomTextGenerator
 
 A simple text generator using Markov chains that can predict the next word in a pseudo-sentence based on the previous words in the sequence and the data that is used to create a statistical model.
@@ -24,7 +37,7 @@ We need to inspect each article to find the tags that represent the article's co
 If there's no articles on the page, your program should still create a folder, but in this case the folder would be empty.
 
 
-# JetBrainsAcademy - Matrix Project
+# JetBrainsAcademy Python Track - Matrix Project
 Python Track Projects
 Here’s a project for devoted matrix enthusiasts: learn to perform a variety of operations on matrices including addition, multiplication, finding the determinant, and dealing with inverse matrices. If you are working on your tech or math major, this project is a good chance for you to learn matrices in action and not just in your notebook.
 ### Learning outcomes
