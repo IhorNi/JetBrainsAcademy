@@ -1,3 +1,18 @@
+# JetBrainsAcademy NLP Track - Key Term Extraction
+
+Extracting keywords can help you get to the text meaning. Also, It can help you with splitting texts into different categories. In this project, I learned how to extract relevant words from a collection of news stories. There are many different ways to do it, but I focused on frequencies, part-of-speech search, and TF-IDF methods. 
+
+### Objectives
+
+1. Read an XML-file containing stories and headlines.
+2. Extract the headers and the text.
+3. Tokenize each text.
+4. Lemmatize each word in the story.
+5. Get rid of punctuation, stopwords, and non-nouns with the help of NLTK.
+6. Count the TF-IDF metric for each word in all stories.
+7. Pick the five best scoring words.
+8. Print each story's headline and the five most frequent words in descending order. Take a look at the sample output below. Display the titles and keywords in the same order they are presented in the file.
+
 # JetBrainsAcademy Python Track - Web Calendar
 
 These days, our lives are very busy and eventful. It's very hard to keep track of everything that happens around us. Let's create a web calendar that will store and manage all upcoming events. Use the Flask framework and create a REST API to save and manage events. The Flask framework allows you to start a web application from a single Python file.
@@ -9,7 +24,6 @@ This is a simple REST service with the Flask framework. It works with a database
 1. Endpont '/event': **GET** either all events or events between dates if any; **POST** new events with required name and date.
 2. Endpont '/event/<int:event_id>': **GET** event by ID if any; **DELETE** event by ID if any.
 3. Endpoint '/event/today': **GET** all events for today() if any. 
-
 
 # JetBrainsAcademy NLP Track - RandomTextGenerator
 
